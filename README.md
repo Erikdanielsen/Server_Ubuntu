@@ -19,7 +19,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 # Disk settup
-## Merg disks using LVM and raid
+Merg disks using LVM and raid:
 https://askubuntu.com/questions/7002/how-to-set-up-multiple-hard-drives-as-one-volume/7841#7841
 
 
