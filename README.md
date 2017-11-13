@@ -42,17 +42,17 @@ Tips: Det er flere triks man kan bruke ved bruk av Dropbox kommandoene. De enkle
 # Samba network share
 For å lage en delt disk er følgende rutiner
 
-1. Install Samba
+### 1. Install Samba
 	sudo apt-get update
 	sudo apt-get install samba
 	
-2. Set a password for your user in Samba
+### 2. Set a password for your user in Samba
 	sudo smbpasswd -a "user_name"
 	
-3. Create a directory to be shared
+### 3. Create a directory to be shared
 	mkdir /home/<user_name>/<folder_name>
 	
-4. sudo nano /etc/samba/smb.conf
+### 4. sudo nano /etc/samba/smb.conf
 	Once "smb.conf" has loaded, add this to the very end of the file:
 
 	[<folder_name>]
@@ -60,11 +60,11 @@ For å lage en delt disk er følgende rutiner
 	valid users = <user_name>
 	read only = no
 
-5. Restart the samba
+### 5. Restart the samba
 sudo service smbd restart
 
-7. Once Samba has restarted, use this command to check your smb.conf for any syntax errors
+### 7. Once Samba has restarted, use this command to check your smb.conf for any syntax errors
 	testparm
 	
-8. To access your network share
+### 8. To access your network share
 	Open windows explorer, then type in the following: \\IP-ADDRESS\SHARE-NAME
