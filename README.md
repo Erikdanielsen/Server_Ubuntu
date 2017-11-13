@@ -24,8 +24,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ## Dropbox Kommandoer
-Ekstra kommandoer for dropbox
-Tips: TAB kan fullføre navnet, kommandoer kan hende de må kjøre fra dropbox folderen
+Tips:
+- TAB kan fullføre navnet
+- kommandoer kan hende de må kjøre fra dropbox folderen
 
 	- dropbox start
 	- dropbox stop
