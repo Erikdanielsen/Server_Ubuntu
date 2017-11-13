@@ -19,13 +19,19 @@ This File is a cheat sheet for setting up ubuntu server, packages and dependenci
 Ekstra kommandoer for dropbox
 Tips: TAB kan fullføre navnet, kommandoer kan hende de må kjøre fra dropbox folderen
 	- dropbox start
+	
 	- dropbox stop
+	
 	- dropbox exclude add 
 		eks: dropbox exclude add backup\ av\ desktop/ 
+		
 	- dropbox exclude remove
 		eks: dropbox exclude remove ikt
+		
 	- Dropbox ls
+	
 	- dropbox autostart y (autostart dropbox on startup)
+	
 	- dropbox status
 
 
