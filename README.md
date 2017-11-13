@@ -31,7 +31,7 @@ Tips: Det er flere triks man kan bruke ved bruk av Dropbox kommandoene. De enkle
 | Dropbox Start     | Start dropbox service | N/A |
 | Dropbox stop    | Stop dropbox service     |   N/A |
 | Dropbox exclude add | selective sync, exlude folders too sync     |    dropbox exclude add backup\ av\ desktop/|
-| ------------- |:-------------:| -----:|
-| Dropbox Start     | Start dropbox service | N/A |
-| Dropbox stop    | Stop dropbox service     |   N/A |
-| Dropbox exclude add | selective sync, exlude folders too sync     |    dropbox exclude add backup\ av\ desktop/|
+| dropbox exclude remove     | Selective sync, include folders that previously was excluded |dropbox exclude remove backup\ av\ desktop/ |
+| dropbox ls    | list foldres and files in the selected directory     |   N/A |
+| dropbox autostart | Settings regarding autostart (yes/no)     |   dropbox autostart y|
+| dropbox status | Provide status on dropbox syncronization     |  N/A|
