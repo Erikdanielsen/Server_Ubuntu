@@ -38,3 +38,5 @@ Tips: Det er flere triks man kan bruke ved bruk av Dropbox kommandoene. De enkle
 | dropbox ls    | list foldres and files in the selected directory     |   N/A |
 | dropbox autostart | Settings regarding autostart (yes/no)     |   dropbox autostart y|
 | dropbox status | Provide status on dropbox syncronization     |  N/A|
+
+#
