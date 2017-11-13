@@ -24,18 +24,14 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ## Dropbox Kommandoer
-Tips:
-- TAB kan fullføre navnet
-- kommandoer kan hende de må kjøre fra dropbox folderen
+Tips: Det er flere triks man kan bruke ved bruk av Dropbox kommandoene. De enkleste er bruk av "TAB" for fullføring av kommando/navn, og kjør kommandoene nevnt under i terminalen ved bruk av CD til dropbox lokasjonen.
 
-	- dropbox start
-	- dropbox stop
-	- dropbox exclude add 
-		eks: dropbox exclude add backup\ av\ desktop/ 	
-	- dropbox exclude remove
-		eks: dropbox exclude remove ikt
-	- Dropbox ls
-	- dropbox autostart y (autostart dropbox on startup)
-	- dropbox status
-
-
+| Command        | Description           | Example  |
+| ------------- |:-------------:| -----:|
+| Dropbox Start     | Start dropbox service | N/A |
+| Dropbox stop    | Stop dropbox service     |   N/A |
+| Dropbox exclude add | selective sync, exlude folders too sync     |    dropbox exclude add backup\ av\ desktop/|
+| ------------- |:-------------:| -----:|
+| Dropbox Start     | Start dropbox service | N/A |
+| Dropbox stop    | Stop dropbox service     |   N/A |
+| Dropbox exclude add | selective sync, exlude folders too sync     |    dropbox exclude add backup\ av\ desktop/|
