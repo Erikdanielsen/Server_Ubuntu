@@ -1,4 +1,12 @@
-This File is a cheat sheet for setting up ubuntu server, packages and dependencies. 
+# What is this documentation
+This document contains a cheat guide for installing and administrating ubuntu server. 
+Editing this document requires using markdown
+
+markdown documentation
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+########################################################################################################################################
+
 
 # System update
 	Sudo apt-get update
