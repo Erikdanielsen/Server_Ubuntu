@@ -68,3 +68,7 @@ sudo service smbd restart
 	
 #### 8. To access your network share
 	Open windows explorer, then type in the following: \\IP-ADDRESS\SHARE-NAME
+	
+# Installing SABnzb,couch potato and sickbeard on server
+## SABnzbd
+Her er link til framgangsmåte https://www.htpcbeginner.com/install-sabnzbd-on-ubuntu-server-easy-atomic-method/ 
