@@ -5,7 +5,7 @@ Editing this document requires using markdown
 markdown documentation
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-##################################################################################################
+#############################################################################################
 
 
 # System update
@@ -23,23 +23,18 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 
-#Dropbox Kommandoer
+## Dropbox Kommandoer
 Ekstra kommandoer for dropbox
 Tips: TAB kan fullføre navnet, kommandoer kan hende de må kjøre fra dropbox folderen
+
 	- dropbox start
-	
 	- dropbox stop
-	
 	- dropbox exclude add 
-		eks: dropbox exclude add backup\ av\ desktop/ 
-		
+		eks: dropbox exclude add backup\ av\ desktop/ 	
 	- dropbox exclude remove
 		eks: dropbox exclude remove ikt
-		
 	- Dropbox ls
-	
 	- dropbox autostart y (autostart dropbox on startup)
-	
 	- dropbox status
 
 
