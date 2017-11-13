@@ -13,10 +13,11 @@ This File is a cheat sheet for setting up ubuntu server, packages and dependenci
 # Installer dropbox
 	https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-ubuntu-14-04
 
+
+
+#Dropbox Kommandoer
 Ekstra kommandoer for dropbox
 Tips: TAB kan fullføre navnet, kommandoer kan hende de må kjøre fra dropbox folderen
-
-# Kommandoer
 	- dropbox start
 	- dropbox stop
 	- dropbox exclude add 
