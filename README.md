@@ -12,6 +12,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 	
 ###Display disks
 - sudo parted -l
+- sudo fdisk /dev/sdc
 
 #############################################################################################
 # System update
