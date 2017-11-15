@@ -5,9 +5,13 @@ Editing this document requires using markdown
 markdown documentation
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-How to get IP on the server
+#Div tools
+###How to get IP on the server
 - route -n
 - nmcli dev show <IFACE>
+	
+###Display disks
+- sudo parted -l
 
 #############################################################################################
 # System update
