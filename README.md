@@ -29,14 +29,14 @@ https://www.maketecheasier.com/create-file-systems-partitions-terminal-linux/
 # Installer og konfigurer cockpit
 
 ### Installasjon
-#### 1, sudo apt-get install cockpit
+	sudo apt-get install cockpit
 
 ### Settup for remote tilgang med Cockpit
-#### 1, Åpne routeren
-#### 2, Gå til "Advanced"
-#### 3, Gå til "NAT"
-#### 4, Skriv in port som skal forwardes (standard er 9090 for cockpit)
-Alternativt kan man endre display port til feks 40500 for økt sikerhet
+	1, Åpne routeren
+	2, Gå til "Advanced"
+	3, Gå til "NAT"
+	4, Skriv in port som skal forwardes (standard er 9090 for cockpit)
+	Alternativt kan man endre display port til feks 40500 for økt sikerhet
 
 
 # Disk settup
