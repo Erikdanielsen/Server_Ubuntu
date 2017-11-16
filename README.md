@@ -13,6 +13,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ###Display disks
 - sudo parted -l
 - sudo fdisk /dev/sda     -> etterfulgt av -> p
+https://www.maketecheasier.com/create-file-systems-partitions-terminal-linux/ 
 
 #############################################################################################
 # System update
@@ -25,9 +26,23 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 	Sudo apt-get update
 	Sudo apt-get install openssh-server
 	Ifconfig
+# Installer og konfigurer cockpit
+
+### Installasjon
+#### 1, sudo apt-get install cockpit
+
+### Settup for remote tilgang med Cockpit
+#### 1, Åpne routeren
+#### 2, Gå til "Advanced"
+#### 3, Gå til "NAT"
+#### 4, Skriv in port som skal forwardes (standard er 9090 for cockpit)
+Alternativt kan man endre display port til feks 40500 for økt sikerhet
 
 
 # Disk settup
+NB! Dette bør gjøres ved installasjon av ubuntu server
+
+###Alternativ måte
 Merg disks using LVM and raid:
 https://askubuntu.com/questions/7002/how-to-set-up-multiple-hard-drives-as-one-volume/7841#7841
 
