@@ -7,8 +7,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 #Div tools
 ###How to get IP on the server
-- route -n
-- nmcli dev show <IFACE>
+- route -n (vise internal IP og dns)
+- nmcli dev show <IFACE> (vise internal IP og dns)
+- curl ipinfo.io/ip (vis external IP)
 	
 ###Display disks
 - sudo parted -l
