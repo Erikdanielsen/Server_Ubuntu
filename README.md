@@ -80,20 +80,35 @@ For å lage en delt disk er følgende rutiner
 #### 4. sudo nano /etc/samba/smb.conf
 	Once "smb.conf" has loaded, add this to the very end of the file:
 
-	[<folder_name>]
-	path = /home/<user_name>/<folder_name>
-	valid users = <user_name>
-	read only = no
-
+	[myshare]
+	path = /path/to/share
+	writeable = yes
+	browseable = yes
+	guest ok = yes
+	public = yes
 #### 5. Restart the samba
 sudo service smbd restart
 
 #### 7. Once Samba has restarted, use this command to check your smb.conf for any syntax errors
 	testparm
-	
+#### 8. Provide access to the folder structure
+	Sudo chmod -R 777 /path/to/share/folder
+
 #### 8. To access your network share
 	Open windows explorer, then type in the following: \\IP-ADDRESS\SHARE-NAME
 	
+##NB! 
+Det kan hende det må opprette en bruker både i SAMBA og på server.
+Dette kan gjøres på følgende måte
+#### 1. Create samba user
+	sudo smbpasswd -a <user_name>
+#### 2. Create local user on the server
+	1, Åpne terminal og kjør "sudo nano /etc/adduser.conf"
+	2, Finn feltet (ofte i bånd)
+	"NAME_REGEX=”^[a-z][-a-z0-9]*$’" , og endre dette til -> #NAME_REGEX=”^[a-z][-a-z0-9].*$’
+	3, Åpne terminal og skriv “sudo useradd navn.navn”
+	4, Kjør dermed “ Sudo mkhomedir_helper navn.navn
+
 # Installing SABnzb,couch potato and sickbeard on server
 ## SABnzbd
 Her er link til framgangsmåte https://www.htpcbeginner.com/install-sabnzbd-on-ubuntu-server-easy-atomic-method/ 
