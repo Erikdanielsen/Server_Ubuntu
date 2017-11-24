@@ -41,7 +41,7 @@ https://www.maketecheasier.com/create-file-systems-partitions-terminal-linux/
 
 
 # Disk settup
-NB! Dette bør gjøres ved installasjon av ubuntu server
+https://www.cyberciti.biz/tips/fdisk-unable-to-create-partition-greater-2tb.html 
 
 ###Alternativ måte
 Merg disks using LVM and raid:
