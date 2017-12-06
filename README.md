@@ -112,3 +112,8 @@ Dette kan gjøres på følgende måte
 # Installing SABnzb,couch potato and sickbeard on server
 ## SABnzbd
 Her er link til framgangsmåte https://www.htpcbeginner.com/install-sabnzbd-on-ubuntu-server-easy-atomic-method/ 
+
+
+# General commands
+####Delete folders with content
+	sudo rm -rf foldername/
