@@ -86,6 +86,8 @@ For å lage en delt disk er følgende rutiner
 	browseable = yes
 	guest ok = yes
 	public = yes
+	force user = ServerUsernameGoesHere
+	
 #### 5. Restart the samba
 sudo service smbd restart
 
